@@ -1,0 +1,215 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+
+
+
+#mySidenav a {
+    position: absolute; 
+    left: -80px; 
+    transition: 0.3s; 
+    padding: 15px; 
+    width: 100px; 
+    text-decoration: none; 
+    font-size: 20px; 
+    color: black; 
+    border-radius: 0 5px 5px 0; 
+    cursor: pointer;
+}
+#mySidenav a:hover{
+    left: 1px;
+}
+#about {
+  top: 250px;
+  background-color:#5499C7 ;
+}
+
+#explore {
+  top: 320px;
+  background-color:#F08080 ;
+
+}
+#contact {
+    top:390px;
+    background-color:#CCCCFF;
+}
+body{
+    background-image: url("bgimg4.jpg");
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width:100%;
+    
+    
+}
+
+.main h1{
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    color:#F08080;
+    font-size: 60px;
+}
+.main h2{
+    font-family: cursive;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 100px;
+    opacity: 0.5;
+}
+
+.main  a{
+    
+    
+    background-color: none;
+    color:#F08080;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.main a:hover{
+    color:aqua;
+    cursor: pointer;
+    transition:all ease 0.2s;
+}
+*{
+    margin:0;
+    padding:0;
+    
+
+}
+.cards{
+    background: none;
+    width:30%;
+    background-color:white;
+    border-radius: 5px;
+    margin: 40px;
+    box-shadow: 2px 2px 10px black;
+    display: inline-block;
+
+}
+.image img{
+    width:100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.title{
+    text-align: center;
+}
+.desc{
+    padding:4px;
+    text-align: center;
+}
+button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border:1px solid black;
+    padding:5px;
+    border-radius: 5px;
+
+    
+}
+button:hover{
+    background-color: orange;
+    color:blue;
+    transition: 0.5s;
+}
+.head h1{
+    text-align: center;
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 200px;
+    color:black;
+    
+
+}
+.head h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color:black;
+    opacity: 0.5;
+
+}
+.one p{
+    color: white;
+}
+.two p{
+    color: white;
+}
+.three p{
+    color: white;
+}
+.four p{
+    color: white;
+}
+.five p{
+    color: white;
+}
+
+
+
+.last{
+    background-color: #CCCCFF;
+    height: 100px;
+    
+}
+.last a{
+    color:black;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+.last a:hover{
+    text-decoration: none;
+    color:#FFBF00 ;
+}
+
+.edition h1{
+    font-size:100px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    opacity: 0.5;
+    font-style: oblique;
+    margin-bottom: 400px;
+}
+    
+
+
+
+.footer{
+    background-color: #CCCCFF ;
+    padding:50px;
+}
+.footer .part1 a{
+    
+    display: inline;
+    color:black;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 10px;
+    
+}
+.register{
+    background-color: #D6EAF8 ;
+    margin:50px;
+    font-size:18px;
+    width:50%;
+    border-radius: 10px ;
+    box-shadow:2px 2px 10px black;
+    border: 2px solid black;
+    cursor: pointer;
+
+}
+.register form{
+    margin:20px;
+    padding:20px;
+
+}
+
+
